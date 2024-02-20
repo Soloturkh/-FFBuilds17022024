@@ -51,7 +51,7 @@ unset TESTFILE
 rm -rf ffbuild
 mkdir ffbuild
 
-FFMPEG_REPO="${FFMPEG_REPO:-https://github.com/Soloturkh/FFmpeg18022024.git}"
+FFMPEG_REPO="${FFMPEG_REPO:-https://github.com/Soloturkh/FFmpeg21022024.git}"
 FFMPEG_REPO="${FFMPEG_REPO_OVERRIDE:-$FFMPEG_REPO}"
 GIT_BRANCH="${GIT_BRANCH:-master}"
 GIT_BRANCH="${GIT_BRANCH_OVERRIDE:-$GIT_BRANCH}"
